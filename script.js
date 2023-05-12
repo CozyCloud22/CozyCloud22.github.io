@@ -6,6 +6,6 @@ window.addEventListener('load', function() {
 
   // Wait for the animation to finish and then load the homepage
   setTimeout(function() {
-    window.location.href = 'homepage.html';
+    window.location.href = 'index.html';
   }, animationDuration);
 });
