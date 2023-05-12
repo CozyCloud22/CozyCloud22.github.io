@@ -5,7 +5,7 @@ body {
 .loading-bar {
     width: 300px;
     height: 20px;
-    background-color: #000;
+    background-color: #000000;
     position: relative;
     margin: 50px auto;
 }
@@ -15,9 +15,18 @@ body {
     display: block;
     width: 0;
     height: 100%;
-    background-color: rgba(0, 255, 255, 0.8); /* Faded neon blue color */
+    background-color: rgba(0, 255, 255, 0.8);
     position: absolute;
-    animation: loading-animation 2s infinite;
+    border-radius: 10px;
+    animation: loading-animation 4s infinite;
+}
+/*.page-transition {
+  opacity: 0;
+  transition: opacity 0.5s;
+}*/
+
+.page-loaded {
+  opacity: 1;
 }
 
 @keyframes loading-animation {
